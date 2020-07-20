@@ -41,5 +41,6 @@
     "jest-enzyme": "^7.1.2",
     "react-test-renderer": "^16.13.1",
     "sinon": "^9.0.2"
-  }
+  },
+  "license": "MIT"
 }
