@@ -1,0 +1,66 @@
+.nav-button {
+  border: 2px solid #707070;
+  color: #707070;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  text-decoration: none;
+
+  &:hover {
+    color: #323131;
+    border: 2px solid #323131;
+  }
+}
+
+.top-left-nav-button {
+  @extend .nav-button;
+  align-self: flex-start;
+  position: absolute;
+}
+
+.timer-display-title {
+  font-size: 30px;
+  line-height: 50px;
+  margin-bottom: 50px;
+}
+
+.timer-display-container {
+  font-size: 30px;
+  font-weight: bold;
+  border: 2px solid #707070;
+  border-radius: 5px;
+  width: 640px;
+  background-color: #F5F5F5;
+  padding: 28px;
+  margin-bottom: 50px;
+}
+
+.button {
+  width: 200px;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.start {
+  @extend .button;
+  background-color: #5CCC87;
+  margin-right: 30px;
+}
+
+.reset {
+  @extend .button;
+  background-color: #E66666;
+}
+
+.timer-display-button-wrapper {
+  margin-bottom: 65px;
+}
